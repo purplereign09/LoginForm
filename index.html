@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="results.html" method="GET">
+        <div class="username">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="username" required>
+        </div>
+        
+        <div class="email">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="email" required>
+        </div>
+
+        <div class="birthdate">
+            <label for="date">Birthdate</label>
+            <input type="date" name="date" id="date" min="2019-06-10">
+        </div>  
+        
+        <div class="banana_checkbox">
+            <label for="banana">Banana</label>
+            <input type="checkbox" name="banana" id="banana">
+        </div>
+        
+        <div class="apple_checkbox">
+            <label for="apple">Apple</label>
+            <input type="checkbox" name="apple" id="apple">
+        </div>
+        
+        <div style="font-family:Arial;" Gender>
+            
+            <div class="male_gender">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+            </div>
+            
+            <div class="female_gender">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female">
+            </div>
+            
+            <div class="eyeColor">
+                <label for="eyeColor">Eye Color</label>
+                <select name="eyeColor" id="eyeColor">
+                    <option value="Green">Green</option>
+                    <option label="Blue" value="Blue"></option>
+                </select>
+            </div>
+            
+            <div class="bio">
+                <label for="bio">Bio</label>
+                <textarea id="bio" name="bio">Insert text</textarea>
+            </div>
+            
+            <div class="phone">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+        </div>
+        
+        
+        <div class="password">
+          <label>
+              Password
+          <input type="password" name="password" required>
+          </label>
+        </div>
+        
+        <div class="reset_button">
+          <button type="reset">Reset</button>
+        </div>
+        
+        <div class="submit_button">
+          <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

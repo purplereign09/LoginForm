@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    color:cornsilk;
+}
+
+div.username {
+    margin-bottom: 35px;
+}
+
+div.email {
+    margin-bottom: 40px;
+}
+
+div.birthdate {
+    margin-bottom: 40px;
+}
+
+div.banana_checkbox {
+    margin-bottom: 40px;
+}
+
+div.apple_checkbox {
+    margin-bottom: 40px;
+}
+
+div.male_gender {
+    margin-bottom: 40px;
+}
+
+div.female_gender {
+    margin-bottom: 40px;
+}
+
+div.eyeColor {
+    margin-bottom: 40px;
+}
+
+div.bio {
+    margin-bottom: 40px;
+}
+
+textarea#bio {
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+div.phone {
+    margin-bottom: 40px;
+}
+
+div.password {
+    margin-bottom: 40px;
+}
+
+div.password input {
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+
+div.reset_button button {
+    background-color:aqua;
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:700;
+    font-size: 1em;
+}
+
+div.submit_button button {
+    background-color: mediumvioletred;
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+div.submit_button button:hover {
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    font-family: 'Oswald';
+    font-size: 1em;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+div.reset_button button:hover {
+    font-weight: 700;
+    background-color: antiquewhite;
+    color: black;
+    font-family: 'Oswald';
+    font-size: 1em;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}

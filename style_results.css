@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: dodgerblue;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 40px;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
+div#results { 
+    font-family: 'Oswald';
+    font-size: 1.3em;
+    padding-bottom: 40px;
+}
+
+div.returnlink a {
+    font-family: 'Oswald', sans-serif;
+    color: purple;
+    font-size: 1.3em;
+}
